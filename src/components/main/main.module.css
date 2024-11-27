@@ -5,3 +5,7 @@
 .align_center{
     align-items: center;
 }
+
+.padding_top_50{
+    padding-top: 50px;
+}

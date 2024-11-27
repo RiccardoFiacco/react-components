@@ -4,10 +4,10 @@ import { Col, Row } from "react-bootstrap";
 import style from './main.module.css'
 export function Main(){
     return(
-        <Row className={[style.justify_center, style.align_center]}>
+        <Row className={[style.justify_center, style.align_center, style.padding_top_50]}>
             <Col xs={6}>
                 <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img  src="../../assets/gto.jpg" />
                 <Card.Body>
                     <Card.Title>Titolo del post</Card.Title>
                     <Card.Text>
