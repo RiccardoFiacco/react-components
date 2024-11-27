@@ -6,7 +6,7 @@ export function Footer(){
         <Container className={[style.bg_color_dark, style.margint_auto]}>  
         <Row>
             <Col className={style.color_white}>
-                <p className="text-center">
+                <p className="text-center pt-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Temporibus esse veniam qui reiciendis delectus eligendi quasi quis. 
                     Sunt, aut? 
