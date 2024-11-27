@@ -4,13 +4,13 @@ import { Col, Row, Container } from "react-bootstrap";
 import style from "./Main.module.css"
 export function Main() {
   return (
-    <div className={[style.main, style.bgcolor_lightGrey]}>
+    <div className={style.main}>
       <Container>
         <Row
           className={[
             style.justify_center,
             style.align_center,
-            style.padding_top_50,
+            style.padding_top_50
           ]}
         >
           <Col xs={6}>

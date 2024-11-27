@@ -9,9 +9,8 @@
 .padding_top_50{
     padding-top: 50px;
 }
-.bgcolor_lightGrey{
-    background-color: #E5E5E5;
-}
+
 .main {
     flex-grow: 1;
+    background-color: #E5E5E5;
 }
