@@ -10,7 +10,9 @@
     padding-top: 50px;
 }
 
-.main {
+.flex_grow_1 {
     flex-grow: 1;
+} 
+.bgcolor_lightGrey{
     background-color: #E5E5E5;
 }

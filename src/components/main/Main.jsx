@@ -4,7 +4,7 @@ import { Col, Row, Container } from "react-bootstrap";
 import style from "./Main.module.css"
 export function Main() {
   return (
-    <div className={style.main}>
+    <div className={`${style.bgcolor_lightGrey} ${style.flex_grow_1}`}>
       <Container>
         <Row
           className={[
