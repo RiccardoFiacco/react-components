@@ -1,10 +1,11 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Col, Row, Container } from "react-bootstrap";
-import style from "./main.module.css";
+import style from "./Main.module.css"
 export function Main() {
   return (
-      <Container className={style.main}>
+    <div className={[style.main, style.bgcolor_lightGrey]}>
+      <Container>
         <Row
           className={[
             style.justify_center,
@@ -29,5 +30,6 @@ export function Main() {
           </Col>
         </Row>
       </Container>
+    </div>
   );
 }

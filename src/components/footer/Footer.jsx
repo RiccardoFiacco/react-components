@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import style from "./footer.module.css"
+import style from "./Footer.module.css"
 export function Footer(){
     return( 
         <Container className={[style.bg_color_dark, style.margint_auto]}>  
