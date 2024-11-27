@@ -1,14 +1,15 @@
-import { Container } from "react-bootstrap"
-import { Header } from "./components/header"
-import { Main } from "./components/main/main"
-
+import { Header } from "./components/header/Header";
+import { Main } from "./components/main/Main";
+import { Footer } from "./components/footer/Footer";
+import { app } from "./App.module.css";
 function App() {
   return (
-    <Container>
-      <Header/>
+    <div className={app}>
+      <Header />
       <Main/>
-    </Container>
-  )
+      <Footer/>
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -9,3 +9,8 @@
 .padding_top_50{
     padding-top: 50px;
 }
+
+.main {
+    flex-grow: 1;
+    background-color: red;
+}
